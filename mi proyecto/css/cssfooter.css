@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#footer{
+    background-color: #2f2f2f;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#footer div ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#footer div ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 1px;
+}
+
+#footer div{
+    text-align: center;
+    flex: auto;
+}

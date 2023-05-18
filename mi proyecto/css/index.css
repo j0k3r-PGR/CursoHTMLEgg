@@ -1,0 +1,20 @@
+@import url("./variables.css");
+
+#main{
+    height: 600px;
+}
+body{
+    background-image: url("https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aqua;
+}
+#main{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+img{
+    align-items: center;
+    justify-content: center;
+}
