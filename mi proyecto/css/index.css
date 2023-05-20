@@ -2,6 +2,7 @@
 
 #main{
     height: 600px;
+    width: 100%;
 }
 body{
     background-image: url("https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg");
@@ -13,8 +14,8 @@ body{
 #main{
     margin-top: 80px;
     margin-bottom: 200px;
+    text-align: center;
 }
 img{
-    align-items: center;
-    justify-content: center;
+    height: 400px;
 }

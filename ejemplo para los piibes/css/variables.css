@@ -1,0 +1,8 @@
+:root{
+    --font-principal : "Times new roman";
+    --color-footer-fondo : red ;
+    --color-izquierda-fondo : Yellow;
+    --fragmentos-de-pagina : repeat(12,1fr);
+    --columnas-main : 3 / 11;
+    --box-shadow-contenedor :  3px 3px black;
+}
