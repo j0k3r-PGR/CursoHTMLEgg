@@ -1,0 +1,87 @@
+
+
+/* Maquetacion */
+body{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    background-color: coral;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.listadoLinks{
+    background-color: darkgoldenrod;
+    grid-column: 10 / 13;
+}
+
+footer{
+    background-color: #2f2f2f;
+    height: 300px;
+    width: 100%;
+}
+
+.contenidoPrincipal{
+    background-color: chocolate;
+    grid-column: 1 / 10;
+}
+
+.articulo{
+    margin: 10px;
+    height: 200px;
+    background-color: #2f2f2f;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+/* HEADER */
+
+.imagen{
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid green;
+    background-color: black;
+}
+
+header div a{
+    text-decoration: none;
+    color : white;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+/* RESUMEN DEL ARTICULO */
+
+.img-div{
+    margin: 10px;
+    background-color: red;
+    grid-column: 1/4;
+    height: 90%;
+}
+
+.contenido-articulo{
+    margin: 10px;
+    grid-column: 4/13;
+    height: 100%;
+}
