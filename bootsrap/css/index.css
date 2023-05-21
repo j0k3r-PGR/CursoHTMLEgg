@@ -1,8 +1,21 @@
-.carousel-inner .carousel-caption h5{
-    font-size: 32px;
-    color:black;
+@import url("./variables.css");
+
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
 }
+
+.carousel-inner .carousel-caption h5{
+    font-size: 32px; 
+    color:black;
+    display: grid;
+    grid-template-columns: var();
+}
+
 
 .miboton{
     background-color : red;
 }
+
