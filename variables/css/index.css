@@ -1,0 +1,13 @@
+@import url("./temaClaro.css");
+
+
+:root{
+    --color-fondo-body: rgb(207, 189, 30);
+    --color-fondo-articulo-principal: rgb(100, 100, 201);
+    --color: blue;
+    --font-principal : "Times new Roman";
+    --font-title-article: "Selvetica";
+    --size-height-cont-footer: 200px;
+    --grid-main-articulos: repeat(12, 1fr );
+}
+
