@@ -1,0 +1,44 @@
+div[class^=container]{
+    border: 1px black dashed;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+}
+div[class^=box]{
+    height: 100px;
+    width: 100px;
+}
+.box-1{
+    background-color: coral;
+}
+.box-2{
+    background-color: cornflowerblue;
+}
+.box-3{
+    background-color: darkseagreen;
+}
+.container-1{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-1 .box-3{
+    align-self: end;
+}
+.container-1 .box-2{
+    align-self: center;
+}
+.container-2{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-2 .box-2{
+    width: 100%;
+}
+.container-3{
+    flex-direction: column-reverse;
+    align-items: end;
+}

@@ -10,8 +10,6 @@ function cambiarhoja(){
     estilo.href = text;
 }
 
-
-    console.log(p);    
-
+console.log(p);    
 
 btn.addEventListener("click",cambiarhoja);
