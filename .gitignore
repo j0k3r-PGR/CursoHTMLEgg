@@ -3,3 +3,4 @@
 # para ignorar todos los pdf
 *.pdf
 
+/pdf
