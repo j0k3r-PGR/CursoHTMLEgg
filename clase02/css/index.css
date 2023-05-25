@@ -1,0 +1,27 @@
+:root{
+    --background-color-body: lightblue;
+    --color-body: darkblue;
+    --font-family-h1: 'Arial' , sans-serif;
+    --font-size-h1: 36px;
+    --font-family-p: 'Georgia', serif;
+    --font-size-p: 18px;
+}
+
+body{
+    background-color: var(--background-color-body);
+    color : var(--color-body);
+}
+
+h1{
+    font-family: var(--font-family-h1);
+    font-size: var(--font-size-h1);
+    text-align: center;
+}
+
+p{
+    font-family: var(--font-family-p);
+    font-size: var(--font-size-p);
+    margin: 10px;
+    padding: 20px;
+}
+
