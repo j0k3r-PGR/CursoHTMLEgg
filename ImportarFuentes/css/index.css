@@ -1,0 +1,19 @@
+/*
+desde la pagina web https://fonts.google.com/ buscar la fuente que mas les guste y si quieren agreguen mas
+1- Seleccionamos la fuente
+2- a la derecha sale una opcion de Select, te aparece por cada linea y te muestra el formato de la fuente.
+    seleccionar las que queramos en nuestro paquete
+3- una vez seleccionamos las deseadas en la esquina superior derecha aparece un icono (view selected families)
+4- una vez presionado ahi seleccionan el input que tiene el @import
+5- copian lo que esta dentro de la etiqueta style (osea solo el import)
+6- lo pegan dentro del css en la primera linea
+7- y mas abajo les sale como llamar ese tipo de fuente en un cuadrito aparte!
+
+Listo con eso ya tienes una fuente externa que se vera en cualquier navegador o dispositivo
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    font-family: 'Pangolin',cursive;
+}
